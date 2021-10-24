@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraScript
+    - Enemies
     - PlayerScript
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -11,7 +12,6 @@ ScriptsOnlyBuild:
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
@@ -21,9 +21,21 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.CollabProxy.Editor.dll:
     - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
-    - Unity.Cloud.Collaborate.UserInterface.WindowCache
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -49,34 +61,56 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
-    - Class: 81
+    - Class: 70
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 618}
+      Script: {instanceID: 644}
     - Class: 114
-      Script: {instanceID: 1710}
+      Script: {instanceID: 1736}
     - Class: 114
-      Script: {instanceID: 1858}
+      Script: {instanceID: 1836}
     - Class: 114
-      Script: {instanceID: 2200}
+      Script: {instanceID: 1884}
     - Class: 114
-      Script: {instanceID: 2614}
+      Script: {instanceID: 2218}
     - Class: 114
-      Script: {instanceID: 2774}
+      Script: {instanceID: 2226}
     - Class: 114
-      Script: {instanceID: 2990}
+      Script: {instanceID: 2640}
     - Class: 114
-      Script: {instanceID: 3234}
+      Script: {instanceID: 2800}
     - Class: 114
-      Script: {instanceID: 21044}
+      Script: {instanceID: 3016}
+    - Class: 114
+      Script: {instanceID: 3260}
+    - Class: 114
+      Script: {instanceID: 3444}
+    - Class: 114
+      Script: {instanceID: 4164}
+    - Class: 114
+      Script: {instanceID: 4704}
+    - Class: 114
+      Script: {instanceID: 5080}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -190,7 +224,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
+      Hash: a76e5a52b8ecce2f9891ecfb104e34f6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
@@ -370,6 +404,12 @@ ScriptsOnlyBuild:
     className: SpriteShapeController
   - hash:
       serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraScript
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -458,6 +498,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Enemies
   - hash:
       serializedVersion: 2
       Hash: 87cef3c82381dc586f6772c3e27561b6
@@ -626,13 +672,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 66bca5cc6a18c5298ec75235e56a84d6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/samee/OneDrive/Desktop/unity stuff/tutorial_1.5/Tutorial_2/Build/Tutorial_2.exe
+  playerPath: C:/Users/samee/OneDrive/Desktop/unity stuff/tutorial_1.5/Tutorial_2/build-2/Tutorial_2.exe
